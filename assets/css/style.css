@@ -1,0 +1,8 @@
+/* Stil dosyası: ihtiyaçlarınıza göre düzenleyin */
+body { font-family: Arial, sans-serif; padding: 20px; }
+.nav, #charts, #selectionPanel { margin-top: 20px; }
+.day-cell { display: inline-block; width: 60px; height: 60px; border: 1px solid #ccc; text-align: center; vertical-align: top; margin: 2px; }
+.mark-yapti { background: #4CAF50; color: #fff; }
+.mark-yapmadi { background: #F44336; color: #fff; }
+.mark-offday { background: #FFC107; color: #fff; }
+.day-cell.selected { outline: 2px solid #2196F3; }
